@@ -5,40 +5,65 @@
 //  Created by Marcus  Jennings on 7/31/24.
 //
 
+//import SwiftUI
+//
+//struct MainView: View {
+//    @StateObject var viewModel = MainViewViewModel()
+//    
+//    var body: some View {
+//        if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty {
+//            accountView
+//        } else {
+//            LoginView()
+//        } 
+//    }
+//    @ViewBuilder
+//    var accountView: some View {
+//        TabView{
+////            HomeView()
+////                .tabItem {
+////                    Label("Home", systemImage: "house")
+////                }
+//            ProfileView()
+//                .tabItem {
+//                    Label("Profile", systemImage: "person.circle" )
+//                }
+//            GpsView()
+//                .tabItem {
+//                    Label("GPS", systemImage: "map.circle")
+//                }
+//        }
+//    }
+//}
+//
+//#Preview {
+//
+//    MainView()
+//    
+//}
+//    
+
 import SwiftUI
 
 struct MainView: View {
-    @StateObject var viewModel = MainViewViewModel()
+    @EnvironmentObject var viewModel: AuthViewViewModel
     
     var body: some View {
-        if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty {
-            accountView
-        } else {
-            LoginView()
-        } 
-    }
-    @ViewBuilder
-    var accountView: some View {
-        TabView{
-//            HomeView()
-//                .tabItem {
-//                    Label("Home", systemImage: "house")
-//                }
+        TabView {
             ProfileView()
                 .tabItem {
-                    Label("Profile", systemImage: "person.circle" )
+                    Label("Profile", systemImage: "person.crop.circle")
                 }
-            GpsView()
+            
+            GpsView() // Assuming you have a GPSView
                 .tabItem {
-                    Label("GPS", systemImage: "map.circle")
+                    Label("GPS", systemImage: "location.circle")
                 }
         }
     }
 }
 
 #Preview {
-
     MainView()
-    
 }
-    
+

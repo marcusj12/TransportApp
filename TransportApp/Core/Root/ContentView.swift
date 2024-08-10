@@ -9,14 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var viewModel: AuthViewViewModel
+    
     var body: some View {
         Group {
             if viewModel.userSession != nil {
-                ProfileView()
+                MainView() // Shows the main view after logging in
             } else {
-                LoginView()
+                LoginView() // Shows the login view if the user is not logged in
             }
-            
         }
     }
 }
@@ -24,3 +24,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
