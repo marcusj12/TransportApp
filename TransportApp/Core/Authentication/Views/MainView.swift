@@ -55,7 +55,7 @@ struct MainView: View {
                     Label("Profile", systemImage: "person.crop.circle")
                 }
             
-            GpsView() // Assuming you have a GPSView
+            GPSView() // Assuming you have a GPSView
                 .tabItem {
                     Label("GPS", systemImage: "location.circle")
                 }
