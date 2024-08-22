@@ -4,8 +4,11 @@
 //
 //  Created by Marcus  Jennings on 8/12/24.
 //
-
+import SwiftUI
 import CoreLocation
+import FirebaseAuth
+import MapKit
+import FirebaseFirestore
 
 class LocationManager: NSObject, ObservableObject {
     private let locationManager = CLLocationManager()

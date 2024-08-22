@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		644235D32C5BC3C100DA6FCD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235D22C5BC3C100DA6FCD /* ProfileView.swift */; };
 		644235DE2C5BCD8100DA6FCD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235DD2C5BCD8100DA6FCD /* LoginView.swift */; };
 		644235E02C5BCEA200DA6FCD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235DF2C5BCEA200DA6FCD /* User.swift */; };
 		644235E42C5BCF0B00DA6FCD /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235E32C5BCF0B00DA6FCD /* MainViewViewModel.swift */; };
@@ -20,7 +19,6 @@
 		644235F22C5C0E1600DA6FCD /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235F12C5C0E1600DA6FCD /* RegisterViewViewModel.swift */; };
 		644235F42C5C2B3D00DA6FCD /* TpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644235F32C5C2B3D00DA6FCD /* TpButton.swift */; };
 		647438192C5A913B00F0E84D /* TransportAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647438182C5A913B00F0E84D /* TransportAppApp.swift */; };
-		6474381B2C5A913B00F0E84D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474381A2C5A913B00F0E84D /* MainView.swift */; };
 		6474381D2C5A913D00F0E84D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6474381C2C5A913D00F0E84D /* Assets.xcassets */; };
 		647438202C5A913D00F0E84D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6474381F2C5A913D00F0E84D /* Preview Assets.xcassets */; };
 		6474382A2C5A913D00F0E84D /* TransportAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647438292C5A913D00F0E84D /* TransportAppTests.swift */; };
@@ -30,6 +28,15 @@
 		647438462C5A954000F0E84D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 647438452C5A954000F0E84D /* FirebaseFirestore */; };
 		64828E582C6A803B0083492D /* GPSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64828E572C6A803B0083492D /* GPSView.swift */; };
 		64828E5D2C6A86C60083492D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64828E5C2C6A86C60083492D /* LocationManager.swift */; };
+		64E88E612C6D395E006B5F08 /* DriverViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E88E602C6D395E006B5F08 /* DriverViewViewModel.swift */; };
+		64E88E632C6D399D006B5F08 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E88E622C6D399D006B5F08 /* ImagePicker.swift */; };
+		64E88E672C6D4352006B5F08 /* RoleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E88E662C6D4352006B5F08 /* RoleSelectionView.swift */; };
+		64E88E6B2C6E58EB006B5F08 /* DriverMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E88E6A2C6E58EB006B5F08 /* DriverMainView.swift */; };
+		64E88E6D2C6E592C006B5F08 /* RiderMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E88E6C2C6E592C006B5F08 /* RiderMainView.swift */; };
+		64E88E6F2C6E7399006B5F08 /* DriverProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E88E6E2C6E7399006B5F08 /* DriverProfileView.swift */; };
+		64E88E712C6E73A8006B5F08 /* RiderProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E88E702C6E73A8006B5F08 /* RiderProfileView.swift */; };
+		64E88E752C6E7C28006B5F08 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E88E742C6E7C28006B5F08 /* CheckInView.swift */; };
+		64E88E792C6E9220006B5F08 /* BusUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E88E782C6E9220006B5F08 /* BusUser.swift */; };
 		64F8F0642C6143E7009B7946 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8F0632C6143E7009B7946 /* Extensions.swift */; };
 		64F8F0692C61604E009B7946 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8F0682C61604E009B7946 /* HomeView.swift */; };
 		64F8F0702C6276F6009B7946 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8F06F2C6276F6009B7946 /* HomeViewViewModel.swift */; };
@@ -56,7 +63,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		644235D22C5BC3C100DA6FCD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		644235DD2C5BCD8100DA6FCD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		644235DF2C5BCEA200DA6FCD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		644235E32C5BCF0B00DA6FCD /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
@@ -70,7 +76,6 @@
 		644235F32C5C2B3D00DA6FCD /* TpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpButton.swift; sourceTree = "<group>"; };
 		647438152C5A913B00F0E84D /* TransportApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransportApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647438182C5A913B00F0E84D /* TransportAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportAppApp.swift; sourceTree = "<group>"; };
-		6474381A2C5A913B00F0E84D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		6474381C2C5A913D00F0E84D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6474381F2C5A913D00F0E84D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		647438252C5A913D00F0E84D /* TransportAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransportAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +85,15 @@
 		647438352C5A913E00F0E84D /* TransportAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		64828E572C6A803B0083492D /* GPSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSView.swift; sourceTree = "<group>"; };
 		64828E5C2C6A86C60083492D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		64E88E602C6D395E006B5F08 /* DriverViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewViewModel.swift; sourceTree = "<group>"; };
+		64E88E622C6D399D006B5F08 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		64E88E662C6D4352006B5F08 /* RoleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSelectionView.swift; sourceTree = "<group>"; };
+		64E88E6A2C6E58EB006B5F08 /* DriverMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverMainView.swift; sourceTree = "<group>"; };
+		64E88E6C2C6E592C006B5F08 /* RiderMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderMainView.swift; sourceTree = "<group>"; };
+		64E88E6E2C6E7399006B5F08 /* DriverProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverProfileView.swift; sourceTree = "<group>"; };
+		64E88E702C6E73A8006B5F08 /* RiderProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderProfileView.swift; sourceTree = "<group>"; };
+		64E88E742C6E7C28006B5F08 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		64E88E782C6E9220006B5F08 /* BusUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusUser.swift; sourceTree = "<group>"; };
 		64F8F0632C6143E7009B7946 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		64F8F0682C61604E009B7946 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		64F8F06F2C6276F6009B7946 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
@@ -120,10 +134,14 @@
 			children = (
 				644235DD2C5BCD8100DA6FCD /* LoginView.swift */,
 				644235EF2C5C0DFF00DA6FCD /* RegisterView.swift */,
-				6474381A2C5A913B00F0E84D /* MainView.swift */,
 				644235ED2C5BE62500DA6FCD /* HeaderView.swift */,
 				64F8F0682C61604E009B7946 /* HomeView.swift */,
 				64828E572C6A803B0083492D /* GPSView.swift */,
+				64E88E662C6D4352006B5F08 /* RoleSelectionView.swift */,
+				64E88E622C6D399D006B5F08 /* ImagePicker.swift */,
+				64E88E6A2C6E58EB006B5F08 /* DriverMainView.swift */,
+				64E88E6C2C6E592C006B5F08 /* RiderMainView.swift */,
+				64E88E742C6E7C28006B5F08 /* CheckInView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -131,13 +149,14 @@
 		644235CE2C5ACAA600DA6FCD /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				64F8F0862C63FF71009B7946 /* AuthViewViewModel.swift */,
 				644235E32C5BCF0B00DA6FCD /* MainViewViewModel.swift */,
 				644235E52C5BCF5400DA6FCD /* LoginViewViewModel.swift */,
 				644235E72C5BCF7000DA6FCD /* ProfileViewViewModel.swift */,
 				644235E92C5BD1B800DA6FCD /* GpsViewViewModel.swift */,
 				644235F12C5C0E1600DA6FCD /* RegisterViewViewModel.swift */,
+				64F8F0862C63FF71009B7946 /* AuthViewViewModel.swift */,
 				64F8F06F2C6276F6009B7946 /* HomeViewViewModel.swift */,
+				64E88E602C6D395E006B5F08 /* DriverViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -157,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				644235DF2C5BCEA200DA6FCD /* User.swift */,
+				64E88E782C6E9220006B5F08 /* BusUser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -258,7 +278,8 @@
 		64F8F0892C64134D009B7946 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				644235D22C5BC3C100DA6FCD /* ProfileView.swift */,
+				64E88E6E2C6E7399006B5F08 /* DriverProfileView.swift */,
+				64E88E702C6E73A8006B5F08 /* RiderProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -412,11 +433,13 @@
 				644235EA2C5BD1B800DA6FCD /* GpsViewViewModel.swift in Sources */,
 				64828E582C6A803B0083492D /* GPSView.swift in Sources */,
 				644235F42C5C2B3D00DA6FCD /* TpButton.swift in Sources */,
-				6474381B2C5A913B00F0E84D /* MainView.swift in Sources */,
-				644235D32C5BC3C100DA6FCD /* ProfileView.swift in Sources */,
 				644235E42C5BCF0B00DA6FCD /* MainViewViewModel.swift in Sources */,
+				64E88E672C6D4352006B5F08 /* RoleSelectionView.swift in Sources */,
+				64E88E712C6E73A8006B5F08 /* RiderProfileView.swift in Sources */,
 				644235E62C5BCF5400DA6FCD /* LoginViewViewModel.swift in Sources */,
 				64F8F08C2C641567009B7946 /* ContentView.swift in Sources */,
+				64E88E752C6E7C28006B5F08 /* CheckInView.swift in Sources */,
+				64E88E6F2C6E7399006B5F08 /* DriverProfileView.swift in Sources */,
 				644235DE2C5BCD8100DA6FCD /* LoginView.swift in Sources */,
 				644235E82C5BCF7000DA6FCD /* ProfileViewViewModel.swift in Sources */,
 				644235F22C5C0E1600DA6FCD /* RegisterViewViewModel.swift in Sources */,
@@ -425,9 +448,14 @@
 				64F8F0702C6276F6009B7946 /* HomeViewViewModel.swift in Sources */,
 				644235E02C5BCEA200DA6FCD /* User.swift in Sources */,
 				644235F02C5C0DFF00DA6FCD /* RegisterView.swift in Sources */,
+				64E88E6B2C6E58EB006B5F08 /* DriverMainView.swift in Sources */,
 				64F8F0872C63FF71009B7946 /* AuthViewViewModel.swift in Sources */,
 				64828E5D2C6A86C60083492D /* LocationManager.swift in Sources */,
 				64F8F0692C61604E009B7946 /* HomeView.swift in Sources */,
+				64E88E612C6D395E006B5F08 /* DriverViewViewModel.swift in Sources */,
+				64E88E6D2C6E592C006B5F08 /* RiderMainView.swift in Sources */,
+				64E88E632C6D399D006B5F08 /* ImagePicker.swift in Sources */,
+				64E88E792C6E9220006B5F08 /* BusUser.swift in Sources */,
 				64F8F0852C63FA84009B7946 /* SettingsRowView.swift in Sources */,
 				647438192C5A913B00F0E84D /* TransportAppApp.swift in Sources */,
 			);

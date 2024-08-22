@@ -37,7 +37,12 @@ struct LoginView: View {
                     
                    TpButton(title: "Log In",background: .blue) {
                        Task{
-                           try await viewModel.signIn(withEmail: email, password: password)
+                           do{
+                               try await viewModel.signIn(withEmail: email, password: password)
+                               await viewModel.fetchUserData()
+                           } catch {
+                               errorMessage = error.localizedDescription
+                           }
                        }
                         
                    }

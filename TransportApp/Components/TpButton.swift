@@ -13,9 +13,7 @@ struct TpButton: View {
     let action: () -> Void
     
     var body: some View {
-        Button{
-            action()
-        }label: {
+        Button(action: action){
             ZStack {
                 RoundedRectangle(cornerRadius: 10)
                     .foregroundColor(background)

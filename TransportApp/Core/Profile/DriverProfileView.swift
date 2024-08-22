@@ -1,21 +1,17 @@
 //
-//  ProfileView.swift
+//  DriverProfileView.swift
 //  TransportApp
 //
-//  Created by Marcus  Jennings on 8/1/24.
+//  Created by Marcus  Jennings on 8/15/24.
+//
+
 import SwiftUI
 
-struct ProfileView: View {
-    @State var darkModeEnabled = false
+
+struct DriverProfileView: View {
+    @State private var darkModeEnabled = false
     @EnvironmentObject var viewModel: AuthViewViewModel
-    
-    var backgroundColor: Color {
-        if darkModeEnabled {
-            return .black
-        } else {
-            return .white
-        }
-    }
+
     
     var body: some View {
         if let user = viewModel.currentUser {
@@ -46,8 +42,7 @@ struct ProfileView: View {
                     SettingsRowView(imageName: "gear",
                                     title: "Version",
                                     tintColor: Color(.systemGray))
-                    
-                    
+            
                     Text("1.0")
                         .font(.subheadline)
                         .foregroundColor(.gray)
@@ -55,7 +50,6 @@ struct ProfileView: View {
                 
                 Section("Settings"){
                     VStack(alignment: .leading) {
-                        
                         Toggle(isOn: $darkModeEnabled){
                             Image(systemName: "moon.circle.fill")
                                 .imageScale(.medium)
@@ -99,6 +93,6 @@ struct ProfileView: View {
 }
 
 #Preview {
-    ProfileView()
+    DriverProfileView()
 }
 
